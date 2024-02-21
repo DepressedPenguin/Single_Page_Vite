@@ -1,0 +1,173 @@
+/* CONTACT.CSS */
+
+.Contact{
+    font-family: 'Jost', sans-serif;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    /* border: 1px solid red; */
+    background-color:rgb(36 36 36);
+
+    /* USE THE GRIDS */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* margin-top: 50px; */
+    /* grid-gap: 10px 10px; */
+}
+
+/* Left CONTACT */
+.left_contact{
+    background-color: #191919;
+    padding: 10px;
+}
+
+.title_contact{
+    background-color: #191919;
+    /* border: 1px solid white; */
+    color: white;
+    width: 100%;
+    height: 65%;
+
+    /* USE FLEX */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* h1 contact */
+.title_contact h1{
+    font-size: 57px;
+    letter-spacing: 2px;
+    align-self: flex-start;
+    margin-left: 26px;
+    text-decoration: underline;
+}
+
+/* p contact */
+.title_contact p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/* Left CONTACT */
+.right_contact{
+    background-color: orange;
+    font-family: 'Jost', sans-serif;
+}
+
+/* FORM PLACE */
+#form_place{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+
+    /* USE GRIDS */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 20% 20% 40% 20%;
+    /* grid-gap: 10px 10px; */
+}
+
+.divs_input{
+    background-color: #191919;
+    /* border: 1px solid white; */
+
+    /* USE GRIDS */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* USERNAME INPUT */
+#username_input{
+    width: 90%;
+    height: 50%;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+}
+
+/* EMAIL CSS */
+#email_input{
+    width: 90%;
+    height: 50%;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+
+/* textarea */
+#textarea_meesage{
+    width: 90%;
+    height: 90%;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.divs_input_btn{
+    background-color: #191919;
+    /* border: 1px solid white; */
+
+    /* USE GRIDS */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#btn_send{
+    width: 20;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 19px;
+    border: none;
+    margin-right: 30px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    left: 0;
+}
+/* SET FONT FOR INPUTS */
+#username_input,
+#email_input,
+#textarea_message,
+#btn_send,
+textarea {
+    font-family: 'Jost', sans-serif;
+}
+
+#textarea_meesage:focus {
+    border: none;
+}
+
+#username_input:focus,
+#email_input:focus,
+#textarea_message:focus {
+    border: none;
+}
+
+/* MAKE CONTACT RESP */
+@media screen and (max-width: 1200px) {
+    .Contact{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .Contact h1{
+        color: orange;
+        border: 1px solid white;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 10px;
+    }
+}
+
