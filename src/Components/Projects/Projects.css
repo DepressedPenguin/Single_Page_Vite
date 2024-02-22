@@ -1,200 +1,198 @@
 /* .CSS FOR PROJECT SECTION */
 
-.Projects{
-    font-family: 'Jost', sans-serif;
-    width: 90%;
-    /* border: 1px solid white; */
-    margin: auto;
+.Projects {
+  font-family: "Jost", sans-serif;
+  width: 90%;
+  /* border: 1px solid white; */
+  margin: auto;
 }
 
-.title_section{
-    width: 100%;
-    margin-top: 15px;
-    /* background-color: white; */
-    height: 90px;
-    /* border: 1px solid white; */
+.title_section {
+  width: 100%;
+  margin-top: 15px;
+  /* background-color: white; */
+  height: 90px;
+  /* border: 1px solid white; */
 
-    /* USE DISPLAY GRID */
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    grid-gap: 10px;
-    margin-bottom: 50px;
+  /* USE DISPLAY GRID */
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 10px;
+  margin-bottom: 50px;
 }
 
 /* div_1  */
-.headline_project{
-    /* background-color: white; */
-    /* border: 1px solid white; */
-    color: white;
+.headline_project {
+  /* background-color: white; */
+  /* border: 1px solid white; */
+  color: white;
 }
 
-.headline_project h1{
-    padding: 10px;
-    font-size: 26px;
-    /* border: 1px solid white; */
-    width: 22%;
-    border-radius: 5px;
+.headline_project h1 {
+  padding: 10px;
+  font-size: 26px;
+  /* border: 1px solid white; */
+  width: 22%;
+  border-radius: 5px;
 }
 
 /* PROJECT HEADLINE */
-.div_1{
-    background-color: rgb(21 21 21);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.div_1 {
+  background-color: rgb(21 21 21);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 /* H4 HEADLINE */
-.div_1 h3{
-    border: 1px solid white;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-    margin-right: 20px;
-    border-radius: 5px;
+.div_1 h3 {
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  margin-right: 20px;
+  border-radius: 5px;
 }
 
-.projects_gallery{
-    width: 100%;
-    /* height: 80%; */
-    margin: auto;
-    /* border: 1px solid white; */
+.projects_gallery {
+  width: 100%;
+  /* height: 80%; */
+  margin: auto;
+  /* border: 1px solid white; */
 
-    /* USE THE GRID HERE */
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap:10px 10px;
-    padding: 5px;
-    
+  /* USE THE GRID HERE */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px 10px;
+  padding: 5px;
 }
 
-.p1{
-    /* border: 1px solid white; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap:10px;
-    transition: background-color 0.3s ease
-    , filter 0.3s ease
-    , opacity 0.3s ease;
-    /* position: relative; */
+.p1 {
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: background-color 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+  /* position: relative; */
 }
-
-
 
 /* IMG PLACE */
-.img_p1{
-    width: 100%;
-    height: 80%;
-    /* background-color: orange; */
+.img_p1 {
+  width: 100%;
+  height: 80%;
+  /* background-color: orange; */
 }
 
-.img_p1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.img_p1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* TITLE PLACE */
-.img_p2{
-    width: 100%;
-    height: 20%;
-    background-color: #191919;
+.img_p2 {
+  width: 100%;
+  height: 20%;
+  background-color: #191919;
 }
 
 /* TITLE PROJECTS */
-.title_pro{
-    width: 100%;
-    height: 40%;
-    /* border: 1px solid red; */
-    color: white;
+.title_pro {
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid red; */
+  color: white;
 
-    /* USEDD FLIX */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  /* USEDD FLIX */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 /* H2 */
-.title_pro h2{
-    height: 85%;
-    padding-left: 20px;
-    margin-bottom: 30px;
-    /* border: 1px solid white; */
+.title_pro h2 {
+  height: 85%;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  /* border: 1px solid white; */
 }
 
 /* LANG USED AND PERVIEW LINK */
-.lang_used_and_perview{
-    width: 100%;
-    height: 60%;
-    /* border: 1px solid white; */
-    /* border: 1px solid red; */
-    /* border-top: 1px solid white; */
-    padding: 5px;
+.lang_used_and_perview {
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid white; */
+  /* border: 1px solid red; */
+  /* border-top: 1px solid white; */
+  padding: 5px;
 
-    /* USE FLIX */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  /* USE FLIX */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /* LANG */
-.lang_side{
-    width: 50%;
-    height: 100%;
-    /* margin-top: 15px; */
-    /* border: 2px solid gold; */
+.lang_side {
+  width: 50%;
+  height: 100%;
+  /* margin-top: 15px; */
+  /* border: 2px solid gold; */
 
-    /* USE FLIX */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    color: white;
+  /* USE FLIX */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
 }
 
-.lang_side p{
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 5px;
+.lang_side p {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
 }
-
 
 /* PERVIEW LINK */
-.perview_link{
-    width: 50%;
-    height: 100%;
-    /* border: 2px solid gold; */
+.perview_link {
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid gold; */
 
-    /* USE FLIX */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    transition: 1.2s;
+  /* USE FLIX */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 1.2s;
 }
 
 /* HOVER LINK */
-.perview_link:hover{
-    /* background-color: white; */
-    color: orange;
+.perview_link:hover {
+  /* background-color: white; */
+  color: orange;
 }
-a:hover{
-    color: orange;
+a:hover {
+  color: orange;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 /* MAKE PRJECT RESP */
 @media screen and (max-width: 1200px) {
-    .projects_gallery{
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        
-    }
+  .projects_gallery {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .div_1 h3 {
+    font-size: 16px;
+    margin-left: 19px;
+  }
 }
