@@ -5,7 +5,7 @@ import css_icon from "../Langs_icons/css.png";
 import js_icon from "../Langs_icons/js.png";
 import acces_icon from "../Langs_icons/accessibility.png";
 import react_icon from "../Langs_icons/react.png";
-import tail_icon from "../Langs_icons/tail.png";
+import sass from "../Langs_icons/sass.png";
 
 // LANG FUNCTION
 export default function Langauges() {
@@ -38,7 +38,7 @@ export default function Langauges() {
       </div>
       <div className="lang_box">
         <h1>Sass</h1>
-        <img src={tail_icon}></img>
+        <img src={sass}></img>
         <p>1 YEAR AND HALF</p>
       </div>
     </div>
