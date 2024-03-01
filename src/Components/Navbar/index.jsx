@@ -63,10 +63,10 @@ export default function Navbar() {
             <img src={youtube} alt="twitter Logo" />
           </a>
           <a
-            href="https://www.youtube.com/channel/UCr_zrVSawkZ_wDtGh1UP5ng"
+            href="https://www.frontendmentor.io/profile/DepressedPenguin"
             target="blank"
           >
-            <img src={mentor} alt="twitter Logo" />
+            <img src={mentor} alt="front-mentor Logo" />
           </a>
         </ul>
       </div>
