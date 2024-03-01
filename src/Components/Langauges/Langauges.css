@@ -1,50 +1,50 @@
 /* LANG .CSS */
 
-.Langauges{
-    width: 90%;
-    background-color: white;
-    /* height: 390px; */
-    border: 1px solid white;
-    margin: auto;
+.Langauges {
+  width: 90%;
+  background-color: white;
+  /* height: 390px; */
+  border: 1px solid white;
+  margin: auto;
 
-    /* USE THE GRID */
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 1px 1px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+  /* USE THE GRID */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px 1px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 /* LANG BOX */
-.lang_box{
-    background-color: #191919;
-    margin-top: 5px;
-    font-family: 'Jost', sans-serif;
-    /* margin-top: 10px; */
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
+.lang_box {
+  background-color: #191919;
+  margin-top: 5px;
+  font-family: "Jost", sans-serif;
+  /* margin-top: 10px; */
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 /* H1 DO SAME SPACING */
-.lang_box h1{
-    letter-spacing: 3px;
+.lang_box h1 {
+  letter-spacing: 3px;
 }
 
 /* PARA */
-.lang_box p{
-    letter-spacing: 3px;
-    font-size: 17px;
+.lang_box p {
+  letter-spacing: 3px;
+  font-size: 17px;
 }
 
 /* MAKE LANGUAGES TABLE RESPO FOR MOVILE */
 @media screen and (max-width: 1200px) {
-    .Langauges{
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
+  .Langauges {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

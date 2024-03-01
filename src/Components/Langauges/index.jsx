@@ -6,6 +6,7 @@ import js_icon from "../Langs_icons/js.png";
 import acces_icon from "../Langs_icons/accessibility.png";
 import react_icon from "../Langs_icons/react.png";
 import sass from "../Langs_icons/sass.png";
+import bot from "../Langs_icons/bot.png";
 
 // LANG FUNCTION
 export default function Langauges() {
@@ -40,6 +41,23 @@ export default function Langauges() {
         <h1>Sass</h1>
         <img src={sass}></img>
         <p>1 YEAR AND HALF</p>
+      </div>
+      {/* ADD ONE MORE LANGUAGE */}
+      <div className="lang_box">
+        <h1>Bootstrap</h1>
+        <img src={bot}></img>
+        <p>1 YEAR AND HALF</p>
+      </div>
+      {/* EMPTY COLUMS */}
+      <div className="lang_box">
+        {/* <h1>Bootstrap</h1> */}
+        {/* <img src={sass}></img> */}
+        {/* <p>1 YEAR AND HALF</p> */}
+      </div>
+      <div className="lang_box">
+        {/* <h1>Bootstrap</h1> */}
+        {/* <img src={sass}></img> */}
+        {/* <p>1 YEAR AND HALF</p> */}
       </div>
     </div>
   );
