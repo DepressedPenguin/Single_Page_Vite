@@ -31,14 +31,20 @@ export default function Projects() {
                     </div> */}
           <div className="img_p2">
             <div className="title_pro">
-              <h2>RECIPES SITE</h2>
+              <a
+                href="https://qy-2-mp-3-project-git-main-depressedpenguins-projects.vercel.app/"
+                target="blank"
+              >
+                <h2>QY2MP3 (CONVERT URL TO MP3)</h2>
+              </a>
             </div>
             {/* LANGUAGES USED */}
             <div className="lang_used_and_perview">
               <div className="lang_side">
-                <p>HTML</p>
+                <p>REACT.JS</p>
+                <p>SCSS</p>
                 <p>CSS</p>
-                <p>FLASK</p>
+                <p>API</p>
               </div>
               <div className="perview_link">
                 <a href="Google.com" target="blank">
@@ -55,14 +61,17 @@ export default function Projects() {
           </div>
           <div className="img_p2">
             <div className="title_pro">
-              <h2>SUPER TEMPLATE</h2>
+              <a href="https://snaptiktok.site/ " target="blank">
+                <h2>Snaptiktok (Convert Url To Mp4&Mp3)</h2>
+              </a>
             </div>
             {/* LANGUAGES USED */}
             <div className="lang_used_and_perview">
               <div className="lang_side">
-                <p>HTML</p>
+                <p>REACT.JS</p>
+                <p>SCSS</p>
                 <p>CSS</p>
-                <p>JS</p>
+                <p>API</p>
               </div>
               <div className="perview_link">
                 <a href="Google.com" target="blank">

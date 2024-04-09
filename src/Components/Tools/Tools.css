@@ -2,7 +2,54 @@
 .Tools {
   width: 90%;
   margin: auto;
-  height: 400px;
+  height: 450px;
   border: 3px solid red;
   color: white;
+
+  /* USE GRIDS */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px 10px;
+  padding: 10px;
+}
+
+.box_tool {
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 3px; */
+}
+
+.img_box {
+  border: 1px solid black;
+  width: 100%;
+  height: 80%;
+}
+
+#fix_size {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title_tool {
+  border: 1px solid black;
+  /* background-color: w; */
+  color: black;
+  font-size: 25px;
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title_tool button {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #191919;
 }

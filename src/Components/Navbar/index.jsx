@@ -56,12 +56,12 @@ export default function Navbar() {
           >
             <img src={fiverr} alt="twitter Logo" />
           </a>
-          <a
+          {/* <a
             href="https://www.youtube.com/channel/UCr_zrVSawkZ_wDtGh1UP5ng"
             target="blank"
           >
             <img src={youtube} alt="twitter Logo" />
-          </a>
+          </a> */}
           <a
             href="https://www.frontendmentor.io/profile/DepressedPenguin"
             target="blank"
