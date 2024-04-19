@@ -148,6 +148,16 @@
   color: white;
 }
 
+.image_preview {
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.image_preview:hover {
+  transform: scale(0.9);
+  transition: all 0.3s;
+}
+
 .lang_side p {
   border: 1px solid white;
   padding: 5px;

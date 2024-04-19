@@ -23,7 +23,7 @@ export default function Projects() {
         <div className="p1">
           {/* IMG PLACE */}
           <div className="img_p1">
-            <img src={p1_recipe}></img>
+            <img className="image_preview" src={p1_recipe}></img>
           </div>
           {/* DIV LINK FOR SITE PERVIEW */}
           {/* <div className="link_perview">
@@ -57,7 +57,7 @@ export default function Projects() {
         <div className="p1">
           {/* IMG PLACE */}
           <div className="img_p1">
-            <img src={super_p2}></img>
+            <img className="image_preview" src={super_p2}></img>
           </div>
           <div className="img_p2">
             <div className="title_pro">
@@ -85,7 +85,7 @@ export default function Projects() {
         <div className="p1">
           {/* IMG PLACE */}
           <div className="img_p1">
-            <img src={calimero_life}></img>
+            <img className="image_preview" src={calimero_life}></img>
           </div>
           <div className="img_p2">
             <div className="title_pro">
@@ -108,17 +108,18 @@ export default function Projects() {
         <div className="p1">
           {/* IMG PLACE */}
           <div className="img_p1">
-            <img src={kasper_p1}></img>
+            <img className="image_preview" src={kasper_p1}></img>
           </div>
           <div className="img_p2">
             <div className="title_pro">
-              <h2>Kasper Template SITE</h2>
+              <h2>Social media dashboard</h2>
             </div>
             {/* LANGUAGES USED */}
             <div className="lang_used_and_perview">
               <div className="lang_side">
-                <p>HTML</p>
-                <p>CSS</p>
+                <p>REACT.JS</p>
+                <p>SCSS</p>
+                <p>TYPESCRIPT</p>
               </div>
               <div className="perview_link">
                 <a href="Google.com" target="blank">
@@ -131,7 +132,7 @@ export default function Projects() {
         <div className="p1">
           {/* IMG PLACE */}
           <div className="img_p1">
-            <img src={anime_p5}></img>
+            <img className="image_preview" src={anime_p5}></img>
           </div>
           <div className="img_p2">
             <div className="title_pro">
@@ -155,7 +156,7 @@ export default function Projects() {
         <div className="p1">
           {/* IMG PLACE */}
           <div className="img_p1">
-            <img src={upload_template}></img>
+            <img className="image_preview" src={upload_template}></img>
           </div>
           <div className="img_p2">
             <div className="title_pro">
