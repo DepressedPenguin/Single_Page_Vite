@@ -31,10 +31,7 @@ export default function Projects() {
                     </div> */}
           <div className="img_p2">
             <div className="title_pro">
-              <a
-                href="https://qy-2-mp-3-project-git-main-depressedpenguins-projects.vercel.app/"
-                target="blank"
-              >
+              <a href="https://www.qy2mp3.online/" target="blank">
                 <h2>QY2MP3 (CONVERT URL TO MP3)</h2>
               </a>
             </div>
