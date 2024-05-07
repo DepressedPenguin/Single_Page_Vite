@@ -86,13 +86,17 @@ export default function Projects() {
           </div>
           <div className="img_p2">
             <div className="title_pro">
-              <h2>Calimero Template</h2>
+              <a href="https://countries-api-dark.netlify.app/" target="blank">
+                <h2>rest-countries-api-with-color-theme-switcher</h2>
+              </a>
             </div>
             {/* LANGUAGES USED */}
             <div className="lang_used_and_perview">
               <div className="lang_side">
-                <p>HTML</p>
-                <p>CSS</p>
+                <p>REACT.js</p>
+                <p>SCSS</p>
+                <p>API</p>
+                <p>TYPESCRIPT</p>
               </div>
               <div className="perview_link">
                 <a href="Google.com" target="blank">
@@ -109,7 +113,9 @@ export default function Projects() {
           </div>
           <div className="img_p2">
             <div className="title_pro">
-              <h2>Social media dashboard</h2>
+              <a href="https://dashboardd-media.netlify.app/ " target="blank">
+                <h2>Social media dashboard</h2>
+              </a>
             </div>
             {/* LANGUAGES USED */}
             <div className="lang_used_and_perview">
