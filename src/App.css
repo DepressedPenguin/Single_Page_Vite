@@ -1,6 +1,7 @@
 /* ROOT CSS */
-:root{
-  background-color: #191919;
-  font-family: 'Poor Story', system-ui;
+:root {
+  /* background-color: #191919; */
+  background: linear-gradient(to top right, #000033 0%, #660066 100%);
+  font-family: "Poor Story", system-ui;
   scroll-behavior: smooth;
 }

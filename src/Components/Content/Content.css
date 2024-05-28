@@ -16,7 +16,8 @@
 /* CONTENT_SIDES */
 /* right side */
 .left_side {
-  background-color: #353535;
+  /* background-color: #353535; */
+  background: linear-gradient(to top right, #000033 0%, #a008a0 100%);
   height: 540px;
   border-radius: 5px;
   background-position: center;
@@ -61,7 +62,7 @@
 
 /* Left SIde */
 .right_side {
-  background-color: orange;
+  /* background-color: orange; */
   /* GRIDs */
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -72,7 +73,7 @@
 
 /* INTRO NAME */
 .intro_name {
-  background-color: #191919;
+  /* background-color: #191919; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,7 +96,7 @@
 
 /* Intro para */
 .intro_para {
-  background-color: #191919;
+  /* background-color: #191919; */
   font-size: 17px;
   /* padding-left: 20px; */
   display: flex;
@@ -105,7 +106,7 @@
 }
 
 .contact_link {
-  background-color: #191919;
+  /* background-color: #191919; */
   display: flex;
   align-items: center;
   justify-content: flex-start;

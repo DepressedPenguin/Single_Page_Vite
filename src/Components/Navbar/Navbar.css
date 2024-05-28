@@ -52,7 +52,8 @@
 }
 
 .logo_place {
-  background-color: #191919;
+  /* background-color: #191919; */
+  /* background: linear-gradient(to top right, #000033 0%, #660066 100%); */
   color: white;
   font-family: "Jost", sans-serif;
   display: flex;
@@ -68,7 +69,8 @@
 }
 
 .items_nav {
-  background-color: #191919;
+  /* background-color: #191919; */
+  /* background: linear-gradient(to top right, #000033 0%, #660066 100%); */
   /* background-color: #353535; */
   /* border-top-left-radius: 10%; */
   color: white;

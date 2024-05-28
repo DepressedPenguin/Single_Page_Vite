@@ -139,20 +139,20 @@ export default function Projects() {
           </div>
           <div className="img_p2">
             <div className="title_pro">
-              <h2>STREAMING ANIME</h2>
+              <a href="https://www.breatheasylife.life/" target="blank">
+                <h2>BREATHEASYLIFE SMOKING TOOL</h2>
+              </a>
             </div>
             {/* LANGUAGES USED */}
             <div className="lang_used_and_perview">
               <div className="lang_side">
                 <p>HTML</p>
-                <p>CSS</p>
-                <p>FLASK</p>
+                <p>BOOTSTRAP</p>
+                <p>SCSS</p>
+                <p>REACT.JS</p>
               </div>
-              <div className="perview_link">
-                <a href="Google.com" target="blank">
-                  <p></p>
-                </a>
-              </div>
+              {/* <div className="perview_link">
+              </div> */}
             </div>
           </div>
         </div>
