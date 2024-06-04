@@ -145,7 +145,7 @@
   }
 
   .right_side {
-    background-color: #191919;
+    /* background: linear-gradient(to top right, #000033 0%, #a008a0 100%); */
     /* border: 1px solid red; */
     /* display: flex; */
     /* flex-direction: column; */
